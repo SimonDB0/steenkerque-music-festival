@@ -1,3 +1,4 @@
+//font //
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Poppins:wght@100&display=swap');
 
 * {
@@ -9,7 +10,17 @@ html,
 body {
   height: 100%;
 }
+.slide{
+  width: 100%;
+  min-height: 100%;
+  position: relative;
 
+}
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+//    MENU  // 
 header {
   position: fixed;
   top: 0;
@@ -33,27 +44,23 @@ nav {
   align-items: center;
 }
 
-nav ul {
+ul {
   width: 100%;
   display: flex;
   list-style: none;
   justify-content: space-around;
 }
-nav ul li{
-  display: block;
-}
-
-
 
 nav ul li a {
   color: white;
   text-decoration: none;
   font-size: px;
   font-family: 'Baloo Paaji 2', cursive;
-   &:hover {
+
+  &:hover {
     border-bottom: 2px solid white;
 
-            }
+  }
 }
 
 #burger {
@@ -69,4 +76,9 @@ nav ul li a {
   height: 3px;
   background-color: white;
   margin: 8px 0;
+}
+// HOME // 
+#home{
+  background-color: black;
+  
 }

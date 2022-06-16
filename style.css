@@ -9,6 +9,17 @@ body {
   height: 100%;
 }
 
+.slide {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -31,15 +42,11 @@ nav {
   align-items: center;
 }
 
-nav ul {
+ul {
   width: 100%;
   display: flex;
   list-style: none;
   justify-content: space-around;
-}
-
-nav ul li {
-  display: block;
 }
 
 nav ul li a {
@@ -65,6 +72,10 @@ nav ul li a:hover {
   height: 3px;
   background-color: white;
   margin: 8px 0;
+}
+
+#home {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
