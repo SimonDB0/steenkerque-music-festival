@@ -80,5 +80,11 @@ nav ul li a {
 // HOME // 
 #home{
   background-color: black;
-  
+  display: flex;
+  justify-content: space-between;
+
 }
+video{
+  width: 500px
+}
+

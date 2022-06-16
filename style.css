@@ -76,6 +76,12 @@ nav ul li a:hover {
 
 #home {
   background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+video {
+  width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
