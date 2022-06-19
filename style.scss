@@ -109,14 +109,39 @@ font-size: 30px;
   align-items: center;
   font-size: 30px;
     }
-.button{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+button{
+  
 }
+
 
               // TICKETS //
 
+#ticket{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  
+}
+//REGULAR 
+.regular{
+  width:60%;
+  height: 100px;
+  background-color: green;
+  text-align: center;
+  line-height: 35px;
+}
+#regul{
+  color: white;
+  font-size: 25px;
+}
+#acces{
+  color:white;
+  font-size:15px;
+}
+#prix1{
+  color: crimson;
+  font-size: 25px;
+}
 // RESPONSIVE 
 @media all and (max-width: 768px)
 {
