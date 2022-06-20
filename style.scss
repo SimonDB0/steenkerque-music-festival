@@ -23,10 +23,6 @@ body {
 
 }
 
-.wrapper {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 //    MENU  // 
 header {
@@ -248,43 +244,47 @@ video {
 }
 
 //CAMPING //
-#camping {
-  background-color: black;
+.container-flex1{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
   color: white;
 }
-
-.normal {
+.normal{
   width: 50%;
-  float: left;
-  border-right: 2px solid #00adb5;
-  text-align: center;
-
+  height: 300%px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #00adb5;
 }
-
-.vvip {
-  width: 50%;
-  float: right;
-  text-align: center;
+.titre{
+  font-size: 30px;
+  border-bottom: 1px solid #00adb5;
 }
-
-.titre {
-  margin-bottom: 30px;
-  border-bottom: 2px solid #00adb5;
-  font-size: 20px;
+.description1{
+  margin-top: 50px;
 }
-
-.description {
-  margin-top: 10px;
-  font-size: 18px;
-}
-
-.tente {
+.tente{
   margin-top: 30px;
   width: 80%;
+}
+.vvip{
+  width: 50%;
+  height: 300%px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.tente{
+  margin-top: 30px;
+  width: 80%;
 }
 
 
+
+                // LINE UP
 
 .vendredi {
   width: 50%;
@@ -347,6 +347,10 @@ video {
 .img6 {
   width: 40%;
 }
+
+
+
+          //infos pratique
 
 .container{
   width: 100%;

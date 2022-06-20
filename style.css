@@ -19,11 +19,6 @@ body {
   position: relative;
 }
 
-.wrapper {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -222,33 +217,42 @@ h1 {
   margin-bottom: 5px;
 }
 
-#camping {
-  background-color: black;
+.container-flex1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
   color: white;
 }
 
 .normal {
   width: 50%;
-  float: left;
-  border-right: 2px solid #00adb5;
-  text-align: center;
+  height: 300% px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #00adb5;
+}
+
+.titre {
+  font-size: 30px;
+  border-bottom: 1px solid #00adb5;
+}
+
+.description1 {
+  margin-top: 50px;
+}
+
+.tente {
+  margin-top: 30px;
+  width: 80%;
 }
 
 .vvip {
   width: 50%;
-  float: right;
-  text-align: center;
-}
-
-.titre {
-  margin-bottom: 30px;
-  border-bottom: 2px solid #00adb5;
-  font-size: 20px;
-}
-
-.description {
-  margin-top: 10px;
-  font-size: 18px;
+  height: 300% px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tente {
