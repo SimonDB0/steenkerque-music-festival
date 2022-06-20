@@ -10,6 +10,7 @@ body {
   height: 100;
   font-family: "Baloo Paaji 2", cursive;
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 .slide {
@@ -106,6 +107,28 @@ video {
   display: flex;
   align-items: center;
   font-size: 30px;
+}
+
+.covertitre {
+  height: 200px;
+  background-image: url(images/covertitre.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+
+h1 {
+  color: #00adb5;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
 }
 
 #ticket {
@@ -231,10 +254,6 @@ video {
 .tente {
   margin-top: 30px;
   width: 80%;
-}
-
-#lineup {
-  background-color: black;
 }
 
 .vendredi {
