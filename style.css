@@ -9,6 +9,7 @@ html,
 body {
   height: 100;
   font-family: "Baloo Paaji 2", cursive;
+  scroll-behavior: smooth;
 }
 
 .slide {
@@ -58,7 +59,7 @@ nav ul li a {
   font-family: "Baloo Paaji 2", cursive;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #00adb5;
 }
 
 #burger {
@@ -90,7 +91,7 @@ nav ul li a:hover {
 }
 
 video {
-  max-width: 1000px;
+  width: 60%;
 }
 
 .loc {
@@ -117,13 +118,15 @@ video {
 
 .regular {
   width: 80%;
-  height: 100px;
-  background-color: green;
+  height: 20%;
+  border: 2px solid;
+  border-color: #00adb5;
   text-align: center;
   line-height: 35px;
 }
 
 #regul {
+  margin-top: 10px;
   color: white;
   font-size: 25px;
 }
@@ -136,13 +139,15 @@ video {
 #prix1 {
   color: crimson;
   font-size: 25px;
+  margin-bottom: 5px;
 }
 
 .weekend {
   margin-top: 80px;
   width: 80%;
-  height: 130px;
-  background-color: green;
+  height: 45%;
+  border: 2px solid;
+  border-color: #00adb5;
   text-align: center;
   line-height: 35px;
   align-items: center;
@@ -152,6 +157,7 @@ video {
 #week {
   color: white;
   font-size: 25px;
+  margin-top: 10px;
 }
 
 #option {
@@ -162,19 +168,22 @@ video {
 #prix2 {
   color: crimson;
   font-size: 29px;
+  margin-bottom: 5px;
 }
 
 .vip {
   margin-top: 80px;
   width: 80%;
-  height: 100px;
-  background-color: green;
+  height: 30%;
+  border: 2px solid;
+  border-color: #00adb5;
   text-align: center;
   line-height: 35px;
   align-items: center;
 }
 
 #viip {
+  margin-top: 10px;
   color: white;
   font-size: 25px;
 }
@@ -187,6 +196,7 @@ video {
 #prix3 {
   color: crimson;
   font-size: 25px;
+  margin-bottom: 5px;
 }
 
 #camping {
@@ -197,7 +207,7 @@ video {
 .normal {
   width: 50%;
   float: left;
-  border-right: 2px solid white;
+  border-right: 2px solid #00adb5;
   text-align: center;
 }
 
@@ -209,7 +219,7 @@ video {
 
 .titre {
   margin-bottom: 30px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #00adb5;
   font-size: 20px;
 }
 
@@ -220,12 +230,68 @@ video {
 
 .tente {
   margin-top: 30px;
-  width: 569px;
-  height: 380px;
+  width: 80%;
 }
 
 #lineup {
   background-color: black;
+}
+
+.vendredi {
+  width: 50%;
+  float: left;
+  color: white;
+  text-align: center;
+  border-right: 2px solid #00adb5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vendredi h2 {
+  border-bottom: 2px solid #00adb5;
+}
+
+.img1 {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.img2 {
+  margin-top: 40px;
+  width: 40%;
+}
+
+.img3 {
+  width: 40%;
+  margin-top: 40px;
+}
+
+.samedi {
+  width: 50%;
+  float: left;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.samedi h2 {
+  border-bottom: 2px solid #00adb5;
+}
+
+.img4 {
+  margin-top: 10px;
+  width: 40%;
+}
+
+.img5 {
+  width: 40%;
+}
+
+.img6 {
+  width: 40%;
 }
 
 @media all and (max-width: 768px) {

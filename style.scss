@@ -11,17 +11,21 @@ html,
 body {
   height: 100;
   font-family: 'Baloo Paaji 2', cursive;
+  scroll-behavior: smooth
 }
-.slide{
+
+.slide {
   width: 100%;
   min-height: 100vh;
   position: relative;
 
 }
-.wrapper{
+
+.wrapper {
   width: 1200px;
   margin: 0 auto;
 }
+
 //    MENU  // 
 header {
   position: fixed;
@@ -60,7 +64,8 @@ nav ul li a {
   font-family: 'Baloo Paaji 2', cursive;
 
   &:hover {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #00adb5;
+    
 
   }
 }
@@ -79,150 +84,237 @@ nav ul li a {
   background-color: white;
   margin: 8px 0;
 }
+
 // HOME // 
-#home{
+#home {
   color: white;
   background-color: black;
   display: flex;
   align-items: center;
-  
+
 }
-.container-flex{
+
+.container-flex {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
-video{
-  max-width: 1000px;
-  
-  
+
+video {
+  width: 60%;
+
+
 }
+
 .loc {
-color: white;
-display: flex;
-align-items: center;
-font-size: 30px;
-}
-.date{
   color: white;
   display: flex;
   align-items: center;
   font-size: 30px;
-    }
+}
+
+.date {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
 
 
 
-              // TICKETS //
+// TICKETS //
 
-#ticket{
+#ticket {
   background-color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
+
 }
+
 //REGULAR 
-.regular{
-  width:80%;
-  height: 100px;
-  background-color: green;
+.regular {
+  width: 80%;
+  height: 20%;
+  border: 2px solid;
+  border-color: #00adb5;
   text-align: center;
   line-height: 35px;
-  
+
 }
-#regul{
+
+#regul {
+  margin-top: 10px;
   color: white;
   font-size: 25px;
 }
-#acces{
-  color:white;
-  font-size:15px;
+
+#acces {
+  color: white;
+  font-size: 15px;
 }
-#prix1{
+
+#prix1 {
   color: crimson;
   font-size: 25px;
+  margin-bottom: 5px;
 }
-.weekend{
+
+.weekend {
   margin-top: 80px;
-  width:80%;
-  height: 130px;
-  background-color: green;
+  width: 80%;
+  height: 45%;
+  border: 2px solid;
+  border-color: #00adb5;
   text-align: center;
   line-height: 35px;
   align-items: center;
   justify-content: center;
 }
-#week{
+
+#week {
   color: white;
   font-size: 25px;
+  margin-top: 10px;
 }
-#option{
-  color:white;
-  font-size:15px;
+
+#option {
+  color: white;
+  font-size: 15px;
 }
-#prix2{
+
+#prix2 {
   color: crimson;
   font-size: 29px;
+  margin-bottom: 5px;
 }
-.vip{
+
+.vip {
   margin-top: 80px;
-  width:80%;
-  height: 100px;
-  background-color: green;
+  width: 80%;
+  height: 30%;
+  border: 2px solid;
+  border-color: #00adb5;
   text-align: center;
   line-height: 35px;
   align-items: center
 }
-#viip{
+
+#viip {
+  margin-top: 10px;
   color: white;
   font-size: 25px;
 }
-#option2{
-  color:white;
-  font-size:15px;
+
+#option2 {
+  color: white;
+  font-size: 15px;
 }
-#prix3{
+
+#prix3 {
   color: crimson;
   font-size: 25px;
+  margin-bottom: 5px;
 }
-         //CAMPING //
-#camping{
+
+//CAMPING //
+#camping {
   background-color: black;
   color: white;
 }
-.normal{
+
+.normal {
   width: 50%;
   float: left;
-  border-right: 2px solid white;
+  border-right: 2px solid #00adb5;
   text-align: center;
-  
+
 }
-.vvip{
+
+.vvip {
   width: 50%;
   float: right;
   text-align: center;
 }
-.titre{
+
+.titre {
   margin-bottom: 30px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #00adb5;
   font-size: 20px;
 }
-.description{
+
+.description {
   margin-top: 10px;
   font-size: 18px;
 }
- .tente{
+
+.tente {
   margin-top: 30px;
-  width:569px;
-  height:380px;
-}
-#lineup{
-background-color: black;
+  width: 80%;
+ 
 }
 
+#lineup {
+  background-color: black;
+}
+
+.vendredi {
+  width: 50%;
+  float: left;
+  color: white;
+  text-align: center;
+  border-right: 2px solid #00adb5;
+  display: flex;
+  flex-direction: column ; 
+  align-items: center;               
+}
+
+.vendredi h2 {
+  border-bottom: 2px solid #00adb5;
+}
 
 
+.img1{
+  margin-top: 30px;
+  width: 50%
+}
+.img2{
+  margin-top: 40px;
+  width: 40%;
+}
+.img3{
+  width: 40%;
+  margin-top: 40px;
+}
+
+
+.samedi {
+  
+    width: 50%;
+    float: left;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column ; 
+    align-items: center;               
+  }
+
+
+.samedi h2 {
+  border-bottom: 2px solid #00adb5;
+
+}
+.img4{
+  margin-top: 10px;
+  width: 40%
+}
+.img5{
+  width: 40%;
+}
+.img6{
+  width: 40%;
+}
 
 
 
@@ -247,22 +339,16 @@ background-color: black;
 
 
 // RESPONSIVE 
-@media all and (max-width: 768px)
-{
-    nav{
-        display: none;
-    }
-    #burger{
-        display: block;
-    }
-    .txt{
-        width: 40%;
-    }
+@media all and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+  }
+
+  .txt {
+    width: 40%;
+  }
 }
-
-
-
-
-
-
-
