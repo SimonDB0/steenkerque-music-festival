@@ -592,13 +592,13 @@ footer img {
   }
 
   .normal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
     border: none;
     margin-bottom: 60px;
-  }
-
-  .viip {
-    justify-content: center;
-    align-items: center;
   }
 
   .vendredi {
@@ -634,17 +634,19 @@ footer img {
   }
 
   .date {
-    display: none;
+    color: #00adb5;
+    margin-bottom: 30px;
+    font-size: 20px;
   }
 
   .imglogo {
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
   }
 
   .imglogo img {
+    display: flex;
     width: 80%;
   }
 
@@ -657,6 +659,10 @@ footer img {
   }
 
   #pratique p {
+    text-align: center;
+  }
+
+  .opening {
     text-align: center;
   }
 }
