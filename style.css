@@ -599,6 +599,42 @@ footer img {
     justify-items: center;
     border: none;
     margin-bottom: 60px;
+    border: 1px solid #00adb5;
+    padding: 10px;
+  }
+
+  .normal img {
+    margin-bottom: 10px;
+  }
+
+  .normal h2 {
+    font-size: 25px;
+  }
+
+  .normal p {
+    font-size: 18px;
+  }
+
+  .vvip {
+    border: 1px solid #00adb5;
+    padding: 10px;
+  }
+
+  .vvip .titre {
+    justify-content: center;
+  }
+
+  .viip img {
+    margin-bottom: 10px;
+  }
+
+  .vvip h2 {
+    font-size: 25px;
+  }
+
+  .vvip p {
+    font-size: 18px;
+    text-align: center;
   }
 
   .vendredi {
