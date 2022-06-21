@@ -50,8 +50,6 @@ ul {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: px;
-  font-family: "Baloo Paaji 2", cursive;
 }
 nav ul li a:hover {
   border-bottom: 2px solid #00adb5;
@@ -471,9 +469,93 @@ h1 {
 .onsite a {
   text-decoration: none;
   border: 1px solid #00adb5;
+  padding: 5px;
   color: white;
   margin: 20px;
-  padding: 5px;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.form h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.form form {
+  margin-bottom: 200px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form form .input {
+  font-size: 18px;
+  display: flex;
+  width: 80%;
+  border-bottom: solid 1px #00adb5;
+  margin-top: 40px;
+}
+
+.form form label {
+  margin-right: 10px;
+}
+
+.form form input {
+  width: 60%;
+  background-color: black;
+  border: 0;
+  color: white;
+}
+
+.form form input:focus {
+  outline: 0;
+}
+
+.form form select {
+  width: 80%;
+  background-color: black;
+  border: 0;
+  outline: 0;
+  color: white;
+}
+
+.form form select option {
+  color: white;
+  border: 0;
+  outline: 0;
+}
+
+.form form select:focus {
+  outline: 0;
+  border: 0;
+}
+
+.form form textarea {
+  margin: 6px;
+  width: 80%;
+  border: none;
+  background-color: black;
+  color: white;
+  resize: none;
+}
+
+.form form textarea:focus {
+  outline: 0;
+}
+
+.form form button {
+  border: 0 none;
+  background-color: #00adb5;
+  color: white;
+  width: 180px;
+  height: 40px;
+  font-weight: bolder;
+  align-self: center;
+  margin-top: 60px;
 }
 
 footer {
@@ -700,6 +782,10 @@ footer img {
 
   .opening {
     text-align: center;
+  }
+
+  .covertitre {
+    background-image: none;
   }
 }
 
