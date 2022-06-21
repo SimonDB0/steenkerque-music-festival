@@ -7,7 +7,6 @@
 
 html,
 body {
-  height: 100;
   font-family: "Baloo Paaji 2", cursive;
   scroll-behavior: smooth;
   background-color: black;
@@ -15,7 +14,7 @@ body {
 
 .slide {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   position: relative;
 }
 
@@ -77,23 +76,40 @@ nav ul li a:hover {
   color: white;
   background-color: black;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-items: center;
+}
+
+.imglogo {
+  display: none;
 }
 
 .container-flex {
+  margin-top: 200px;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
 
 video {
-  width: 60%;
+  width: 900px;
 }
 
 .cont-btn {
   display: flex;
+  width: 20%;
+  height: 60px;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+  margin-top: 30px;
+  border: 1px solid #00adb5;
+  margin-bottom: 30px;
+}
+
+.cont-btn a {
+  text-decoration: none;
+  color: white;
 }
 
 .loc {
@@ -108,11 +124,12 @@ video {
   display: flex;
   align-items: center;
   font-size: 30px;
+  justify-content: center;
 }
 
 .covertitre {
   height: 200px;
-  background-image: url(images/covertitre.jpeg);
+  background-image: url(images/background-dark.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -121,7 +138,7 @@ video {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
   margin-bottom: 100px;
-  margin-top: 200px;
+  margin-top: 90px;
 }
 
 h1 {
@@ -142,7 +159,6 @@ h1 {
 
 .regular {
   width: 80%;
-  height: 20%;
   border: 2px solid;
   border-color: #00adb5;
   text-align: center;
@@ -169,7 +185,6 @@ h1 {
 .weekend {
   margin-top: 80px;
   width: 80%;
-  height: 45%;
   border: 2px solid;
   border-color: #00adb5;
   text-align: center;
@@ -198,7 +213,6 @@ h1 {
 .vip {
   margin-top: 80px;
   width: 80%;
-  height: 30%;
   border: 2px solid;
   border-color: #00adb5;
   text-align: center;
@@ -219,7 +233,7 @@ h1 {
 
 #prix3 {
   color: crimson;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 5px;
 }
 
@@ -246,11 +260,15 @@ h1 {
 
 .description1 {
   margin-top: 50px;
+  font-size: 25px;
+}
+
+.description {
+  font-size: 25px;
 }
 
 .tente {
   margin-top: 30px;
-  width: 80%;
 }
 
 .vvip {
@@ -279,6 +297,7 @@ h1 {
 
 .vendredi h2 {
   border-bottom: 2px solid #00adb5;
+  font-size: 35px;
 }
 
 .img1 {
@@ -308,6 +327,7 @@ h1 {
 
 .samedi h2 {
   border-bottom: 2px solid #00adb5;
+  font-size: 35px;
 }
 
 .img4 {
@@ -336,12 +356,16 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: 15px;
 }
 
 .opening h2 {
   margin-top: 20px;
   display: flex;
   color: white;
+  font-size: 30px;
+  border-bottom: 2px solid #00adb5;
 }
 
 .opening p {
@@ -349,6 +373,9 @@ h1 {
   color: white;
   margin-top: 30px;
   margin-bottom: 5px;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
 }
 
 .opening img {
@@ -373,12 +400,16 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: 15px;
 }
 
 .acces h2 {
   margin-top: 20px;
   display: flex;
   color: white;
+  font-size: 30px;
+  border-bottom: 1px solid #00adb5;
 }
 
 .acces p {
@@ -386,6 +417,7 @@ h1 {
   color: white;
   margin-top: 30px;
   margin-bottom: 5px;
+  font-size: 20px;
 }
 
 .acces img {
@@ -410,12 +442,15 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 15px;
 }
 
 .onsite h2 {
   margin-top: 20px;
   display: flex;
   color: white;
+  font-size: 30px;
+  border-bottom: 1px solid #00adb5;
 }
 
 .onsite p {
@@ -423,6 +458,7 @@ h1 {
   color: white;
   margin-top: 30px;
   margin-bottom: 5px;
+  font-size: 20px;
 }
 
 .onsite img {
@@ -451,7 +487,7 @@ footer img {
   width: 120px;
 }
 
-@media all and (max-width: 1044px) {
+@media screen and (max-width: 1100px) {
   nav {
     display: none;
   }
@@ -481,13 +517,11 @@ footer img {
   }
 
   .normal {
-    width: 95%;
     border: none;
     margin-bottom: 60px;
   }
 
   .viip {
-    width: 95%;
     justify-content: center;
     align-items: center;
   }
@@ -514,9 +548,21 @@ footer img {
 
   .onsite {
     width: 60%;
+  }
+
+  .slide {
+    height: 100%;
+  }
+
+  .video {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
-@media all and (max-width: 850px) {
+@media screen and (max-width: 700px) {
   nav {
     display: none;
   }
@@ -546,13 +592,11 @@ footer img {
   }
 
   .normal {
-    width: 95%;
     border: none;
     margin-bottom: 60px;
   }
 
   .viip {
-    width: 95%;
     justify-content: center;
     align-items: center;
   }
@@ -579,6 +623,41 @@ footer img {
 
   .onsite {
     width: 60%;
+  }
+
+  .slide {
+    height: 100%;
+  }
+
+  .loc {
+    display: none;
+  }
+
+  .date {
+    display: none;
+  }
+
+  .imglogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imglogo img {
+    width: 80%;
+  }
+
+  video {
+    display: none;
+  }
+
+  #logo img {
+    width: 100px;
+  }
+
+  #pratique p {
+    text-align: center;
   }
 }
 

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Steenkerque Music Festival </title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,6 +18,7 @@
                 <li><a href="#camping">CAMPING</a></li>
                 <li><a href="#lineup">LINE-UP</a></li>
                 <li><a href="#pratique">INFOS PRATIQUES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
         <div id="burger">
@@ -28,22 +30,27 @@
     <div class="slide" id="home">
         <div class="container-flex">
             <div class="loc">STEENKERQUE</div>
-            <video autoplay muted loop>
-                <source src="images/MUSIC ON FESTIVAL 2019 • Aftermovie.mp4" type="video/mp4">
-            </video>
+            <div class="video"> 
+                <video autoplay muted loop>
+                    <source src="images/MUSIC ON FESTIVAL 2019 • Aftermovie.mp4" type="video/mp4" media="screen and (max-device-width:800px)">
+                </video>
+
+            </div>
+
+            <div class="imglogo">
+                <img src="images/logo_transparent.png" alt="logo">
+            </div>
             <div class="date">14 & 15 AOUT 2022</div>
         </div>
-        <!-- <div class="cont-btn">
-            <div class="btn">TICKETS</div>
-        </div> -->
-        
+        <div class="cont-btn">
+            <div class="btn"> <a href="#ticket">TICKETS</a></div>
+        </div>
 
     </div>
     <div class="slide" id="ticket">
         <div class="covertitre">
             <h1>TICKETS</h1>
         </div>
-
         <div class="regular">
             <p id="regul">REGULAR 1 DAY TICKET</p>
             <p id="acces">ACCES AU FESTIVAL + PARKING </p>
@@ -58,6 +65,7 @@
             <p id="viip">VIP TICKET</p>
             <p id="option2">ACCES AU FESTIVAL + PARKING SURVEILLE + CAMPING LUXE + ACCES A LA ZONE LOUNGE</p>
             <p id="prix3">180€</p>
+
         </div>
     </div>
     <div class="slide" id="camping">
@@ -111,7 +119,7 @@
         <div class="container">
             <div class="opening">
                 <h2>OPENING HOUR</h2>
-                <p>Vendredi 12:00 - 01:00 Check-in avant 22:00</p>
+                <p>Le Vendredi 12:00 - 01:00 Check-in avant 22:00</p>
                 <p>Samedi 12:00 - 01:00 Check-in avant 22:00</p>
                 <img src="images/opening.jpeg" alt="foule">
                 <a href="#">MORE INFOS</a>
@@ -127,14 +135,51 @@
                 <h2>SUR LE SITE </h2>
                 <p>ENTREE INTERDITE AUX PERSONNES DE MOINS DE 16 ANS</p>
                 <p>DROGUES ET OBJETS TRANCHANTS INTERDITS SUR SITE</p>
-                <img src="images/localisation.png" alt="foule">
+                <img src="images/onsite.webp" alt="foule">
                 <a href="#">MORE INFOS</a>
             </div>
 
         </div>
 
     </div>
+    <div class="slide" id="contact">
+        <div class="covertitre">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="form">
+            <form action="POST">
+                <div class="input">
+                    <label for="name"> Prenom : </label>
+                    <input type="text" id="nom" placeholder="   ex: Simon">
+                </div>
 
+                <div class="input">
+                    <label for="name"> Nom : </label>
+                    <input type="text" placeholder="   ex: Dupont" id="prenom">
+                </div>
+                <div class="input">
+                    <label for="genre"> Genre : </label>
+                    <select name="genre" id="genre">
+                        <option value="Homme">Homme</option>
+                        <option value="Femme">Femme</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label for="mail"> E-mail :</label>
+                    <input type="email" placeholder="example@mail.com" name="email" id="email">
+                </div>
+
+                <div class="input">
+                    <label for="commentaire"> Text :</label>
+                    <textarea name="commentaire" id="commentaire" placeholder="Votre message"></textarea>
+                </div>
+
+                <button>Envoyer</button>
+
+            </form>
+        </div>
+    </div>
 </body>
 <footer>
     &copy;DE BOE SIMON
