@@ -108,6 +108,7 @@ video {
 .cont-btn a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 .loc {
@@ -171,7 +172,7 @@ h1 {
 
 #acces {
   color: white;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 #prix1 {
@@ -252,17 +253,17 @@ h1 {
 }
 
 .titre {
-  font-size: 30px;
+  font-size: 25px;
   border-bottom: 1px solid #00adb5;
 }
 
 .description1 {
   margin-top: 50px;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .description {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .tente {
@@ -362,7 +363,7 @@ h1 {
   margin-top: 20px;
   display: flex;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   border-bottom: 2px solid #00adb5;
 }
 
@@ -373,7 +374,7 @@ h1 {
   margin-bottom: 5px;
   text-align: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .opening img {
@@ -406,7 +407,7 @@ h1 {
   margin-top: 20px;
   display: flex;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   border-bottom: 1px solid #00adb5;
 }
 
@@ -415,7 +416,7 @@ h1 {
   color: white;
   margin-top: 30px;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .acces img {
@@ -447,7 +448,7 @@ h1 {
   margin-top: 20px;
   display: flex;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   border-bottom: 1px solid #00adb5;
 }
 
@@ -456,7 +457,7 @@ h1 {
   color: white;
   margin-top: 30px;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .onsite img {
@@ -495,13 +496,14 @@ h1 {
 .form form .input {
   font-size: 18px;
   display: flex;
-  width: 80%;
+  width: 100%;
   border-bottom: solid 1px #00adb5;
   margin-top: 40px;
+  align-items: center;
 }
 
 .form form label {
-  margin-right: 10px;
+  width: 100px;
 }
 
 .form form input {
