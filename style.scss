@@ -11,7 +11,7 @@ html,
 body {
   font-family: 'Baloo Paaji 2', cursive;
   scroll-behavior: smooth;
-  background-color: black;
+ background-color: black;
 
 }
 
@@ -19,7 +19,7 @@ body {
   width: 100%;
   min-height: 100%;
   position: relative;
-
+ 
 }
 
 
@@ -32,7 +32,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #3333;
   height: 80px;
 }
 
@@ -510,8 +510,9 @@ h1 {
   text-decoration: none;
   border: 1px solid #00adb5;
   padding: 5px;
-  color: white;
   margin: 20px;
+  color: white;
+  
 
 }
 
@@ -523,6 +524,7 @@ h1 {
   color: white;
   font-size: 30px;
   text-align: center;
+  
 
 }
 
@@ -539,9 +541,10 @@ h1 {
   font-size: 18px;
   display: flex;
   width: 100%;
+  align-items: center;
   border-bottom: solid 1px #00adb5;
   margin-top: 40px;
-  align-items: center;
+  
 }
 
 .form form label {
@@ -746,6 +749,7 @@ footer img {
     margin-bottom: 60px;
     border: 1px solid #00adb5;
     padding: 10px;
+    width: 80%;
   }
 
   .normal img {
@@ -763,6 +767,7 @@ footer img {
   .vvip {
     border: 1px solid #00adb5;
     padding: 10px;
+    width: 80%;
   }
 
   .vvip .titre {
@@ -795,16 +800,16 @@ footer img {
 
   .opening {
     margin-bottom: 15px;
-    width: 60%;
+    width: 80%;
   }
 
   .acces {
     margin-bottom: 15px;
-    width: 60%;
+    width: 80%;
   }
 
   .onsite {
-    width: 60%;
+    width: 80%;
   }
 
   .slide {
@@ -847,8 +852,12 @@ footer img {
 
   .opening {
     text-align: center;
+    width: 80%;
   }  
   .covertitre{
     background-image: none;
+  }
+  .form{
+    width: 80%;
   }
 }
