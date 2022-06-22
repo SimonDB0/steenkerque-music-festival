@@ -26,7 +26,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: rgba(51, 51, 51, 0.2);
+  background-color: black;
   height: 80px;
 }
 
@@ -795,6 +795,10 @@ footer img {
 
   .form {
     width: 80%;
+  }
+
+  .cont-btn {
+    width: 30%;
   }
 }
 
